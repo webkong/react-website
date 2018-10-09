@@ -1,0 +1,25 @@
+.cases_wrapper {
+  margin: 50px 0;
+  height: 500px;
+  .cases {
+    width: 1000px;
+    margin: 0 auto;
+    height: 500px;
+    .title {
+      text-align: center;
+      padding: 20px;
+    }
+    .cover{
+      width: 200px;
+      height: 300px;
+      img{
+        width: 200px;
+      }
+    }
+  }
+
+}
+
+.ant-tabs-nav-wrap {
+  text-align: center;
+}

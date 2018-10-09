@@ -1,0 +1,63 @@
+.pager {
+  height: 480px;
+}
+$slider_height: 480px;
+//slider
+.ant-carousel .slick-slide {
+  text-align: center;
+  background: #364d79;
+  height: $slider_height;
+  overflow: hidden;
+}
+
+.ant-carousel .slick-dots li {
+  background: #364d79;
+  &.slick-active {
+    background: #001529;
+    button {
+      background: #001529;
+    }
+  }
+}
+
+.slider_wrapper{
+  .desc{
+    position: relative;
+    top: -$slider_height;
+  }
+}
+
+// feature
+
+.feature_wrapper {
+  height: 500px;
+  .title {
+    text-align: center;
+    padding: 20px;
+  }
+  .item {
+    height: 300px;
+    padding-top: 140px;
+    text-align: center;
+    .icon {
+      width: 100%;
+      font-size: 60px;
+    }
+  }
+}
+
+// process
+
+.process_wrapper {
+  padding: 120px 0;
+  background: #eee;
+  .process {
+    width: 900px;
+    margin: 0 auto;
+    .title {
+      text-align: center;
+      padding-bottom: 40px;
+    }
+  }
+
+}
