@@ -1,7 +1,7 @@
 .pager {
-  height: 480px;
+  height: 560px;
 }
-$slider_height: 480px;
+$slider_height: 520px;
 //slider
 .ant-carousel .slick-slide {
   text-align: center;
@@ -27,17 +27,39 @@ $slider_height: 480px;
   }
 }
 
-// feature
 
-.feature_wrapper {
-  height: 500px;
+
+// scope
+
+.scope_wrapper {
+  padding: 140px 0;
+
   .title {
     text-align: center;
     padding: 20px;
   }
   .item {
     height: 300px;
-    padding-top: 140px;
+    text-align: center;
+    .icon {
+      width: 100%;
+      font-size: 60px;
+    }
+  }
+}
+
+
+// feature
+
+.feature_wrapper {
+  padding: 140px 0;
+
+  .title {
+    text-align: center;
+    padding: 20px;
+  }
+  .item {
+    height: 300px;
     text-align: center;
     .icon {
       width: 100%;
@@ -49,10 +71,9 @@ $slider_height: 480px;
 // process
 
 .process_wrapper {
-  padding: 120px 0;
-  background: #eee;
+  padding: 140px 60px;
+  background: #efefef;
   .process {
-    width: 900px;
     margin: 0 auto;
     .title {
       text-align: center;

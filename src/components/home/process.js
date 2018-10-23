@@ -3,7 +3,7 @@
 */
 
 import React, {Component} from 'react';
-import {Steps, Icon} from 'antd'
+import {Steps, Icon, Row} from 'antd'
 
 const {Step} = Steps;
 const flow = [{
@@ -65,14 +65,18 @@ class Process extends Component {
             )
         });
         return (
-            <div className="process_wrapper" id={'#process'}>
+            <div className="process_wrapper pager" id={'#process'}>
                 <div className="process">
                     <div className="title">
                         <h2>服务流程</h2>
                     </div>
-                    <Steps labelPlacement="vertical" current={current}>
-                        {list}
-                    </Steps>
+                    <Row type="flex" justify="space-around" align="middle">
+
+                        <Steps labelPlacement="vertical" current={current}>
+                            {list}
+                        </Steps>
+                    </Row>
+
                 </div>
             </div>
         );

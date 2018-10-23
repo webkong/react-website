@@ -1,0 +1,23 @@
+.footer_wrapper{
+  color:#ddd;
+  font-size: 13px;
+  line-height: 20px;
+  .about{
+    margin-top: 20px;
+    max-width: 800px;
+    float: left;
+  }
+  .linkUs{
+    float: right;
+    width: 150px;
+
+  }
+}
+.linkItem {
+  a {
+    color:#fff;
+    &:hover {
+      color: #666;
+    }
+  }
+}
