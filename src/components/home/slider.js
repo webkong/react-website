@@ -9,27 +9,19 @@ import './conent.scss'
 const sliderArray = [{
     imageURL: BannerPic1,
     redirectURL: '',
-    desc: (
-        // <p style={{fontSize: '30px', float: 'left'}}>我是测试文案</p>
-    )
+    desc: ''
 }, {
     imageURL: BannerPic2,
     redirectURL: '',
-    desc: (
-        {/*<p style={{fontSize: '30px', float: 'right'}}>我也是测试文案</p>*/}
-    )
+    desc: ''
 }, {
     imageURL: BannerPic3,
     redirectURL: '',
-    desc: (
-        {/*<p style={{fontSize: '30px'}}>我也是测试文案</p>*/}
-    )
+    desc: ''
 },{
     imageURL: BannerPic4,
     redirectURL: '',
-    desc: (
-        {/*<p style={{fontSize: '30px'}}>我也是测试文案</p>*/}
-    )
+    desc: ''
 }];
 
 

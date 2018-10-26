@@ -1,0 +1,6 @@
+{
+  "type": "git",
+  "repo": "https://github.com/webkong/react-website.git",
+  "branch": "master",
+  "dir": "build"
+}
