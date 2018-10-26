@@ -6,6 +6,8 @@
 # testing
 /coverage
 
+/build
+/.deploy_git
 # production
 
 # misc

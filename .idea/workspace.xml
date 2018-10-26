@@ -1,21 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2273010f-62a1-45a8-9496-c1f7989eb2c0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/home/images/process.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/footer/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/footer/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/header/menu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/menu.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/home/conent.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home/conent.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/home/feature.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home/feature.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/home/process.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home/process.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/home/scope.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home/scope.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
-    </list>
+    <list default="true" id="2273010f-62a1-45a8-9496-c1f7989eb2c0" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -403,12 +389,12 @@
       <workItem from="1540291162603" duration="890000" />
       <workItem from="1540300538198" duration="11926000" />
       <workItem from="1540360216092" duration="2415000" />
-      <workItem from="1540373419672" duration="14477000" />
+      <workItem from="1540373419672" duration="15078000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57515000" />
+    <option name="totallyTimeSpent" value="58116000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="6" />
