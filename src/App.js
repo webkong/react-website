@@ -19,13 +19,13 @@ class App extends Component {
                         position: 'absolute',
                         zIndex: 1,
                         width: '100%',
-                        background: 'rgba(255,255,255,1)',
+                        background: 'rgb(14, 14, 14)',
                         overflow: 'hidden'
                     }}>
 
                         <Head/>
                     </Header>
-                    <Content style={{padding: '0 0', marginTop: '64px'}}>
+                    <Content style={{padding: '0 0', marginTop: '64px', background:'rgb(0,0,0)', color: '#fff'}}>
                         <Switch key="home">
                             <Route to="/" exact component={Home}/>
                             <Route to="/h5" component={HTML5}/>

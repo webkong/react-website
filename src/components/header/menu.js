@@ -10,11 +10,11 @@ const NavArray = [{
     url: '/h5'
 }, {
     key: 'minProgram',
-    name: '小程序',
+    name: '小程序/游戏',
     url: '/minProgram'
 }, {
     key: 'minGame',
-    name: '小游戏',
+    name: '网站制作',
     url: '/minGame'
 }, {
     key: 'custom',
@@ -73,8 +73,9 @@ class Nav extends Component {
         return (
 
             <Menu onClick={this.handleClick}
+                  theme={'dark'}
                   selectedKeys={[this.state.current]}
-                  style={{lineHeight: '62px', background: 'rgba(255,255,255,0)', float: 'right', borderBottom: 'none'}}
+                  style={{lineHeight: '62px', background: 'rgb(14, 14, 14)', float: 'right', borderBottom: 'none'}}
                   mode="horizontal">
                 {list}
             </Menu>

@@ -1,33 +1,33 @@
 .pager {
   height: 560px;
+  max-width: 1200px;
+  margin: 0 auto;
 }
-$slider_height: 520px;
+
+$slider_height: 500px;
 //slider
 .ant-carousel .slick-slide {
   text-align: center;
-  background: #364d79;
   height: $slider_height;
   overflow: hidden;
 }
 
-.ant-carousel .slick-dots li {
-  background: #364d79;
-  &.slick-active {
-    background: #001529;
-    button {
-      background: #001529;
-    }
-  }
-}
+//.ant-carousel .slick-dots li {
+//  background: #364d79;
+//  &.slick-active {
+//    background: #001529;
+//    button {
+//      background: #001529;
+//    }
+//  }
+//}
 
-.slider_wrapper{
-  .desc{
+.slider_wrapper {
+  .desc {
     position: relative;
     top: -$slider_height;
   }
 }
-
-
 
 // scope
 
@@ -35,32 +35,34 @@ $slider_height: 520px;
   padding: 140px 0;
 
   .title {
-    text-align: center;
-    padding: 20px;
-  }
-  .item {
-    height: 300px;
-    text-align: center;
-    .icon {
-      width: 100%;
-      font-size: 60px;
+    text-align: left;
+    margin-bottom: 20px;
+    .h2 {
+      color: #fff;
+      font-size: 50px;
+      letter-spacing: 0.77px;
+      line-height: 50px;
+      font-weight: 700;
+
+    }
+    .h3 {
+      font-size: 20px;
+      line-height: 30px;
+      color: rgb(255, 255, 255);
+      margin-top: 8px;
+      font-weight: 700;
     }
   }
-}
-
-
-// feature
-
-.feature_wrapper {
-  padding: 140px 0;
-
-  .title {
-    text-align: center;
-    padding: 20px;
-  }
   .item {
-    height: 300px;
+    height: 320px;
+    width: 260px;
+    padding: 40px 40px 20px;
+    background: rgb(25, 26, 30);
     text-align: center;
+    .name {
+      font-size: 18px;
+      font-weight: 700;
+    }
     .icon {
       width: 100%;
       font-size: 60px;
@@ -71,14 +73,111 @@ $slider_height: 520px;
 // process
 
 .process_wrapper {
-  padding: 140px 60px;
-  background: #efefef;
+  background: url("./images/process.png") no-repeat;
+  background-size: 120%;
+  margin:140px 0 ;
+
   .process {
+    height: 560px;
+    max-width: 1200px;
     margin: 0 auto;
+    padding: 50px 0;
     .title {
-      text-align: center;
-      padding-bottom: 40px;
+      text-align: left;
+      .h2 {
+        color: #fff;
+        font-size: 50px;
+        letter-spacing: 0.77px;
+        line-height: 50px;
+        font-weight: 700;
+
+      }
+      .h3 {
+        font-size: 20px;
+        line-height: 30px;
+        color: rgb(255, 255, 255);
+        margin-top: 8px;
+        font-weight: 700;
+      }
+    }
+    .steps {
+      color: #fff;
+      .step {
+        .num {
+          position: absolute;
+          top: -8px;
+          left: -39px;
+          width: 65px;
+          font-size: 100px;
+          line-height: 100px;
+          text-align: center;
+          color: rgba(35, 108, 255, 0.2);
+          z-index: 0;
+          font-weight: 700;
+        }
+        .h4 {
+          font-size: 30px;
+          line-height: 38px;
+          color: rgb(255, 255, 255);
+          font-weight: 700;
+        }
+        .h5 {
+          font-size: 20px;
+          line-height: 30px;
+          color: rgb(255, 255, 255);
+          margin-top: 2px;
+        }
+        .desc {
+          font-size: 14px;
+          line-height: 22px;
+          color: rgba(255, 255, 255, 0.85);
+          height: 88px;
+          margin-top: 15px;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          display: -webkit-box;
+          -webkit-line-clamp: 4;
+        }
+      }
     }
   }
+}
 
+// feature
+
+.feature_wrapper {
+  .title {
+    text-align: left;
+    margin-bottom: 20px;
+    .h2 {
+      color: #fff;
+      font-size: 50px;
+      letter-spacing: 0.77px;
+      line-height: 50px;
+      font-weight: 700;
+
+    }
+    .h3 {
+      font-size: 20px;
+      line-height: 30px;
+      color: rgb(255, 255, 255);
+      margin-top: 8px;
+      font-weight: 700;
+    }
+  }
+  .item {
+    height: 320px;
+    width: 260px;
+    padding: 40px 40px 20px;
+    background: rgb(25, 26, 30);
+    text-align: center;
+    .name {
+      font-size: 18px;
+      font-weight: 700;
+    }
+    .icon {
+      width: 100%;
+      font-size: 60px;
+    }
+  }
 }

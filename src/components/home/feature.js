@@ -34,9 +34,10 @@ class Feature extends Component {
         return (
             <div className="feature_wrapper pager" id={'feature'}>
                 <div className="title">
-                    <h2>为什么选择页控？</h2>
+                    <div className="h2">Why we are</div>
+                    <div className={'h3'}>为什么选择页控</div>
                 </div>
-                <Row type="flex" justify="space-around" align="middle">
+                <Row type="flex" justify="space-between" align="middle">
 
                     {featureList}
                 </Row>

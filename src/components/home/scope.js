@@ -18,13 +18,13 @@ class Scope extends Component {
     render() {
         const scopeList = list.map((elem, index) => {
             return (
-                <Col span={4} key={index}>
+                <Col span={5} key={index}>
                     <div className="item">
+
+                        <p className="name">{elem.name}</p>
                         <div className="icon">
                             <Icon type={elem.icon} theme="twoTone" twoToneColor={elem.color}/>
                         </div>
-                        <p className="name">{elem.name}</p>
-
                         <p className="desc">
                             {elem.desc}
                         </p>
@@ -34,9 +34,10 @@ class Scope extends Component {
         return (
             <div className="scope_wrapper pager" id={'scope'}>
                 <div className="title">
-                    <h2>业务范围</h2>
+                    <div className={'h2'}>BUSINESS</div>
+                    <div className={'h3'}>业务范围</div>
                 </div>
-                <Row type="flex" justify="space-around" align="middle">
+                <Row type="flex" justify="space-between" align="middle">
 
                     {scopeList}
                 </Row>

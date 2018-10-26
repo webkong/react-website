@@ -3,27 +3,26 @@
 */
 
 import React, {Component} from 'react';
-import {Steps, Icon, Row} from 'antd'
+import {Icon, Row, Col} from 'antd'
 
-const {Step} = Steps;
 const flow = [{
-    id: 1,
+    id: 'requirement',
     title: '需求确认',
     icon: 'user'
 }, {
-    id: 2,
+    id: 'development',
     title: '项目实施',
     icon: 'solution'
 }, {
-    id: 3,
+    id: 'tests',
     title: '流程测试',
     icon: 'bars'
 }, {
-    id: 4,
+    id: 'deployment',
     title: '部署上线',
     icon: 'smile-o'
 }, {
-    id: 5,
+    id: 'data report',
     title: '数据报告',
     icon: 'bar-chart'
 }];
@@ -59,23 +58,43 @@ class Process extends Component {
 
     render() {
         const {current} = this.state;
-        const list = flow.map((elem) => {
+        const list = flow.map((elem, index) => {
             return (
-                <Step key={elem.id} title={elem.title} icon={<Icon type={elem.icon}/>}/>
+                <Col span={12} key={index}>
+                    <div className="step" >
+                        <div className="num">
+                            {index + 1}
+                        </div>
+                        <div className="title">
+                            <div className="h4">{(elem.id).toUpperCase()}</div>
+                            <div className="h5">{elem.title}</div>
+                        </div>
+                        <div className="desc">
+
+
+                        </div>
+                    </div>
+                </Col>
             )
         });
         return (
-            <div className="process_wrapper pager" id={'#process'}>
+            <div className="process_wrapper" id={'process'}>
                 <div className="process">
-                    <div className="title">
-                        <h2>服务流程</h2>
-                    </div>
-                    <Row type="flex" justify="space-around" align="middle">
 
-                        <Steps labelPlacement="vertical" current={current}>
+                    <div className="steps">
+
+                        <Col span={8}>
+                            <div className="title">
+                                <div className={'h2'}>PROCESS</div>
+                                <div className={'h3'}>服务流程</div>
+                            </div>
+                        </Col>
+                        <Row type="flex" justify="space-between" align="middle">
+
                             {list}
-                        </Steps>
-                    </Row>
+                        </Row>
+                    </div>
+
 
                 </div>
             </div>
