@@ -20,6 +20,7 @@
     "eject": "react-app-rewired eject"
   },
   "devDependencies": {
+    "git-deploy-directory": "^1.0.2",
     "react-app-rewire-scss": "^1.0.2"
   }
 }
