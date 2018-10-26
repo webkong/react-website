@@ -62,16 +62,6 @@ class Nav extends Component {
     render() {
         // const {NavArray} = this.state;
         const list = NavArray.map((elem) => {
-            if (elem.children && elem.children.length > 0) {
-                const children = elem.children.map((el) => {
-                    return <Menu.Item key={el.key}>{el.name}</Menu.Item>
-                });
-                return (
-                    <SubMenu key="language" title="English" style={{float: 'right'}}>
-                        {children}
-                    </SubMenu>
-                );
-            }
             return (
                 <Menu.Item key={elem.key}>
                     <Link to={elem.url}>

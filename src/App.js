@@ -26,10 +26,10 @@ class App extends Component {
                         <Head/>
                     </Header>
                     <Content style={{padding: '0 0', marginTop: '64px'}}>
-                        <Switch>
+                        <Switch key="home">
                             <Route to="/" exact component={Home}/>
                             <Route to="/h5" component={HTML5}/>
-                            <Route component={NoMatch}/>
+                            <Route component={NoMatch} />
                         </Switch>
                     </Content>
                     <Footer style={{background: 'rgb(14, 14, 14)', height: '290px'}}>
